@@ -15,6 +15,7 @@
                 <?php
             }
             ?>
+             <a href="/news/admin/" style="float: right;">Admin Login</a>
             </div>
         </div>
     </div>
