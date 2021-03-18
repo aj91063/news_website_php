@@ -36,7 +36,7 @@ if(empty($_FILES['logo']['name'])){
         $result=mysqli_query($conn,$sql);
         if($result){
             
-            header("Location: {$hostname}admin/setting.php");
+            header("Location: {$hostname}admin/post.php");
         }else
         {
         echo "Quary failed 40.";
